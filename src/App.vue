@@ -76,7 +76,8 @@ export default {
   			alert("说了要输入网址啦，你想上天么。。。。。。")
   			return
   		} else{
-  			let compose_url="http://api.baiyug.cn/vip/index.php?url="+the_url+"!";
+        // let compose_url="http://api.baiyug.cn/vip/index.php?url="+the_url+"!";
+        let compose_url="http://yun.mt2t.com/lines?url="+the_url;
   			console.log('compose_url = '+ compose_url);
         this.isShow = true;
         // this.url="http://api.baiyug.cn/vip/index.php?url=http://www.iqiyi.com/v_19rr7pe5k4.html!"
