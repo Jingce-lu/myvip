@@ -78,7 +78,9 @@ export default {
   		} else{
         // let compose_url="http://api.baiyug.cn/vip/index.php?url="+the_url+"!";
         // let compose_url="http://yun.mt2t.com/lines?url="+the_url;
-        let compose_url="http://yun.mt2t.com/yun?url="+the_url;
+        // let compose_url="http://yun.mt2t.com/yun?url="+the_url;
+        let vipApi = "http://17kyun.com/api.php?url=";
+        let compose_url = vipApi + the_url;
   			console.log('compose_url = '+ compose_url);
         this.isShow = true;
         // this.url="http://api.baiyug.cn/vip/index.php?url=http://www.iqiyi.com/v_19rr7pe5k4.html!"
